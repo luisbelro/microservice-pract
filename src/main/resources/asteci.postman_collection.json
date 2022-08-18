@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "501664da-ea89-4133-b075-6c3b3234a4b1",
+		"name": "asteci",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listproducts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-id-usuario",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"PC TOSHIBA\",\r\n    \"descripcion\": \"COMPUTADORA CORE I8, 500 HD, 32 RAM\",\r\n    \"precio\": 9000.9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9091/miempresa/compras/listproducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"miempresa",
+						"compras",
+						"listproducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "borrarProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9091/miempresa/compras/delproduct/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"miempresa",
+						"compras",
+						"delproduct",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCarCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-id-usuario",
+						"value": "2",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"idProducto\":8,\r\n    \"pieces\":11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9091/miempresa/compras/addproductcar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"miempresa",
+						"compras",
+						"addproductcar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "viewCardCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9091/miempresa/compras/carcustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"miempresa",
+						"compras",
+						"carcustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Cantidad Producto",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "holder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9091/miempresa/compras/getholder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"miempresa",
+						"compras",
+						"getholder"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

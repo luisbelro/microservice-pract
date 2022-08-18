@@ -1,0 +1,14 @@
+{
+ 
+  "listProducts": [
+      {"id":1,"nombre":"PC TOSHIBA","descripcion":"COMPUTADORA CORE I8, 500 HD, 32 RAM","precio":9000.90},
+      {"id":2,"nombre":"PC LG","descripcion":"COMPUTADORA CORE I8, 500 HD, 32 RAM","precio":4000.90},
+      {"id":3,"nombre":"PC SAMSUMG","descripcion":"COMPUTADORA CORE I8, 500 HD, 32 RAM","precio":8000.99},
+      {"id":4,"nombre":"PC APPLE MAC","descripcion":"COMPUTADORA CORE I8, 500 HD, 32 RAM","precio":39000.98},
+      {"id":5,"nombre":"PC DYNABOOK","descripcion":"COMPUTADORA CORE I8, 500 HD, 32 RAM","precio":9000.00},
+      {"id":6,"nombre":"CEL XIOAMY","descripcion":"CEL 108 PX FRONTAL","precio":9000.00},
+      {"id":7,"nombre":"CEL SAMSUMG","descripcion":"CEL 12PX FRONTAL","precio":9000.00},
+      {"id":8,"nombre":"CEL LG","descripcion":"CEL PROCESADOR SNAGDRAGON","precio":9000.00},
+      {"id":9,"nombre":"CEL POCO","descripcion":"CEL 16 GB DE RAM, 108PX 16PX","precio":9000.00}
+  ]
+}
